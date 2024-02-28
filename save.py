@@ -84,9 +84,15 @@ if uploaded_file is not None:
 st.markdown("<h1 style='text-align: center;padding:50px 50px 50px 50px>&nbsp;</h1>", unsafe_allow_html=True)
 container = st.container(border=True)
 
-# container.header("Team G1")
-# st.markdown("<h1 style='text-align: center;padding:50px 50px 50px 50px>&nbsp;</h1>", unsafe_allow_html=True)
-# st.markdown("<h1 style='text-align: center; font-family: 'Yatra One';font-size: 22px;'>🚩 || जय श्री राम ||🚩</h1>", unsafe_allow_html=True)
+container.header("Team G1")
+container.write("Name")
+container.write("Navin Patil")
+container.write("Jay Shende")
+container.write("Sumeet Awatar")
+container.write("Advait Despande")
+container.write("Shubham Bali")
+st.markdown("<h1 style='text-align: center;padding:50px 50px 50px 50px>&nbsp;</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-family: 'Yatra One';font-size: 22px;'>🚩 || जय श्री राम ||🚩</h1>", unsafe_allow_html=True)
   
 
             
